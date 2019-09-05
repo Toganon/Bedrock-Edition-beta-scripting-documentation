@@ -1,2 +1,3 @@
 # Bedrock-Edition-beta-scripting-documentation
-Bedrock Edition beta scripting documentationをGoogle翻訳に通したものを軽く修正した奴
+翻訳してみたはいいもののあまりに適当なのでwikiに書くのがはばかられたのでここに置いておきます 
+<https://minecraft.gamepedia.com/Bedrock_Edition_beta_scripting_documentation#Slash_Commands>
