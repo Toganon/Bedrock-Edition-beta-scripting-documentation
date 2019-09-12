@@ -45,9 +45,9 @@ JavaScriptでスクリプトを書き、ビヘイビアパックにまとめる�
 ### サンプル 
 スクリプトを書き始めるためのサンプルです。解凍してコードを見たり、.mcpackとしてインポートしてみてください。  
 |サンプル|最終更新|ダウンロード|
-| :--: | :--: | :--: |
-| ターン制RPG | 2019/4/17 | https://aka.ms/minecraftscripting_turnbased |
-|  アリーナ   | 2019/4/17 | https://aka.ms/minecraftscripting_mobarena  |
+|:--:|:--:|:--:|
+|ターン制RPG|2019/4/17|https://aka.ms/minecraftscripting_turnbased|
+|アリーナ|2019/4/17|https://aka.ms/minecraftscripting_mobarena|
 
 ### 既知の不具合と対処法  
 |不具合|対処法|
@@ -59,7 +59,7 @@ JavaScriptでスクリプトを書き、ビヘイビアパックにまとめる�
 |死んでいるエンティティにremoveEntity(destroyEntity？)を使用するとクラッシュする|removeEntityをエンティティのHPを0にしたと同時に使用しない。エンティティを削除するとすぐに削除されます(死亡モーションが出ない？)。死んだエンティティを保存しておいて次のフレームで削除しましょう(サンプルが参考になるでしょう)|
 
 ### 重大な変更  
-実験的にScripting APIの作業と改良を続けるため、現在のスクリプトを破壊するような変更を加える必要があるかもしれません。スクリプトが期待どおりに機能しない場合は、この項を確認してください。
+実験的にScripting APIの作業と改良を続けるため、現在のスクリプトを破壊するような変更を加える必要があるかもしれません。スクリプトが期待どおりに機能しない場合は、この項を確認してください。  
 |カテゴリ|変更点|
 |:--:|:--:|
 |UI|engine.onはファセット名を取ります。スクリプトエンジンの起動を確認してUIに接続するには、次が必要です。<br>`engine.on("facet:updated:core.scripting", ...);`<br>初期化の完了後、次を実行します。<br>`engine.trigger("facet:request", ["core.scripting"]);`|
