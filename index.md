@@ -47,8 +47,8 @@ JavaScriptでスクリプトを書き、ビヘイビアパックにまとめる�
 
 |サンプル|最終更新|ダウンロード|
 |:--:|:--:|:--:|
-|ターン制RPG|2019/4/17|https://aka.ms/minecraftscripting_turnbased|
-|アリーナ|2019/4/17|https://aka.ms/minecraftscripting_mobarena|
+|ターン制RPG|2019/4/17|<https://aka.ms/minecraftscripting_turnbased>|
+|アリーナ|2019/4/17|<https://aka.ms/minecraftscripting_mobarena>|
 
 ### 既知の不具合と対処法  
 
@@ -80,11 +80,11 @@ JavaScriptでスクリプトを書き、ビヘイビアパックにまとめる�
 |:--:|:--:|:--:|
 |テキストエディタ|Visual Studio Codeかその他のテキストエディタ|「JavaScript diagnostics」、「JavaScript and TypeScript language support」、「Just-In-Time debugger」がインストールされたVisual Studio Community 2017|
 |デバッガ|N/A|Visual Studio Community 2017|
-|その他||バニラのビエイビアパック https://aka.ms/behaviorpacktemplate|
+|その他||バニラのビエイビアパック <https://aka.ms/behaviorpacktemplate>|
 |ストレージ|1.0GB以上の空き容量|3.0GB以上の空き容量|
 
 ### 始めよう  
-最初に最新のバニラのビヘイビアパックをダウンロードする https://aka.ms/behaviorpacktemplate  
+最初に最新のバニラのビヘイビアパックをダウンロードする <https://aka.ms/behaviorpacktemplate>  
 ビヘイビアパックをダウンロードしたら解凍し、動かしたいスクリプトを全て入れるscriptsフォルダを探す。  
 scriptsフォルダにはclientとserverフォルダがある。  
 - clientフォルダ
@@ -95,7 +95,7 @@ scriptsフォルダにはclientとserverフォルダがある。
 clientかserverのどちらを使うか決まったら、新しい空の.jsファイルを適切なフォルダに作り、用意したテキストエディタで開き、スクリプトを書きましょう。  
 フォルダには何個でもJavaScriptファイルを置けて(名前は自由)それぞれが独立して動作します。  
 スクリプトを書き終わってテストしたくなったら、フォルダをzipで圧縮し、拡張子を.zipから.mcpackに書き換え、ダブルクリックでインポートできます。  
-新しくパックを有効にしたワールドを作りテストしましょう。https://www.minecraft.net/en-us/addons/  
+新しくパックを有効にしたワールドを作りテストしましょう。<https://www.minecraft.net/en-us/addons/>  
 
 注意  
 スクリプトを動作させたいワールドの試験的ゲームプレイの項目を有効にする必要があります。これはScriptingAPIがβ版である間ずっと必要です。  
@@ -124,7 +124,7 @@ clientかserverのどちらを使うか決まったら、新しい空の.jsフ�
     ```  
 
 ### スクリプトの構造
-この項ではMinecraft Scripting Engineのスクリプトファイルの基本構造の簡単な説明をします。もしJavaScriptについてもっと知りたくなったり、基礎的なチュートリアルを受けたくなったら、公式ドキュメントをチェックしてください https://developer.mozilla.org/docs/Web/JavaScript  
+この項ではMinecraft Scripting Engineのスクリプトファイルの基本構造の簡単な説明をします。もしJavaScriptについてもっと知りたくなったり、基礎的なチュートリアルを受けたくなったら、公式ドキュメントをチェックしてください <https://developer.mozilla.org/docs/Web/JavaScript>  
 ここに書かれているものはある意味必須なものですが、すべてではありません。必要に応じてさらにメソッドを作ることが可能です  
 
 #### 1.システム登録  
@@ -178,7 +178,7 @@ sampleSystem.shutdown = function() {
 
 ### デバッグ  
 スクリプトが機能しなかったり、希望どおりに動作していなっかたりしますか？心配無用です！スクリプトエンジンにデバッグ機能を組み込み、スクリプトで何が起こっているのかを把握できるようにしました。  
-プログラミングが初めての場合、またはデバッグについて詳しく知りたい場合は、Visual Studioでのデバッグに関するドキュメントを参照してください。 https://docs.microsoft.com/visualstudio/debugger  
+プログラミングが初めての場合、またはデバッグについて詳しく知りたい場合は、Visual Studioでのデバッグに関するドキュメントを参照してください。 <https://docs.microsoft.com/visualstudio/debugger>  
 スクリプトで何か問題が発生したときに何が起こったかを知るには、ゲーム内で知る方法とリアルタイムで監視する方法の2つの方法があります。これについては以下で説明します。ゲーム内でのデバッグ方法にはゲームとスクリプトだけで充分ですが、リアルタイムでのデバッグ方法はwindow10のPCとVisual Stadioが必要です。  
 
 #### ゲーム内  
@@ -188,7 +188,7 @@ sampleSystem.shutdown = function() {
 ```
 %APPDATA%\..\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\logs
 ```
-デバッグメッセージをスクリプトに組み込んで作業することを強くお勧めします。これは、何かが正しく機能していないかを判断するのに役立ちます。追加のヘルプが必要な場合は、公式のDiscordチャンネルに連絡してください。 https://discord.gg/Minecraft  
+デバッグメッセージをスクリプトに組み込んで作業することを強くお勧めします。これは、何かが正しく機能していないかを判断するのに役立ちます。追加のヘルプが必要な場合は、公式のDiscordチャンネルに連絡してください。 <https://discord.gg/Minecraft>  
 
 #### リアルタイム  
 Visual StudioがインストールされたWindows 10 PCを使用している場合、Visual Studioデバッガーを接続して、リアルタイムでスクリプトをデバッグできます。  このドキュメントの「推奨」の項に記載されている構成を使用してVisual Studioをインストールした場合、Just-In-Time debuggerをインストールして有効にします。このツールは、スクリプトで例外が発生するたびにVisual Studioからメッセージをポップアップし、例外が発生した場所をVisual Studioを開くことができます。  
